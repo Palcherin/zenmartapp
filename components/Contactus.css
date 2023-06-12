@@ -1,0 +1,61 @@
+.contactme{
+    width: 100%;
+    height: 80vh;
+    background: #888;
+    
+}
+.contactme-container{
+    width: 800px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background: lightgrey;
+    justify-content: space-around;
+    color: black;
+    align-self: center;
+    margin-left: 20%;
+}
+.contact-pic{
+    flex-basis: 50%;
+    justify-content: flex-start;
+
+}
+.contact-pic img{
+    width: 90%;
+    height: 80vh;
+}
+.contact-form{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 20px;
+}
+.contact-form input{
+    margin-top: 10px;
+    left: 0;
+    padding: 10px;
+    width: 90%;
+    outline: none;
+    border: transparent;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    width: 95%;
+    min-height: 150px;
+    margin-top: 10px;
+    outline: none;
+    border: transparent;
+    border-radius: 5px;
+}
+.contact-btn{
+    padding: 5px 20px;
+    margin-top: 10px;
+    width: 90%;
+    font-weight: 900;
+    text-align: center;
+    background: rgba(8, 8, 49, 0.884);
+}
+.contact-btn:hover{
+    background:  rgba(3, 3, 131, 0.884);
+}

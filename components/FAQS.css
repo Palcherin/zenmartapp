@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+.faqs{
+    background: #888;
+    height: fit-content;
+    padding-right: 20%;
+    margin: 0;
+    align-items: center;
+    height: 70vh;
+   
+}
+.faqa-container{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    background: lightblue;
+    justify-content: center;
+
+}
+.faqs-text{
+    font-size: 15px;
+    padding: 20px;
+    width: fit-content;
+    flex-basis: 50%;
+}
+.faqs-text span{
+    font-size: 28px;
+    text-decoration: underline;
+}
+.faqs-btn{
+    background: rgb(1, 1, 36);
+    padding: 3px 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.faqs-text h6, p{
+    margin: 5px;
+
+}
+.faqs-icons{
+    color: blue;
+    box-shadow: 0 0 1px aqua;
+    margin: 5px;
+    font-size: 20px;
+}
+.faqs-pic{
+    width: 400px;
+    height: 400px;
+}
+.faqs-pic img{
+    width: 100%;
+    height: 100%;
+}

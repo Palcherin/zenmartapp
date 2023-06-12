@@ -1,0 +1,129 @@
+.navbar{
+    background: rgba(8, 8, 49, 0.884);
+    height: 10vh;
+    z-index: 10;
+}
+.navbar-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    position: relative;
+    padding-top: 15px;
+}
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.nav-links{
+    padding: 7px;
+    text-decoration: none;
+    color: #fff;
+    transform: 0.5s all ;
+}
+.nav-links:hover{
+    border:1px solid #fff;
+    background:rgb(8, 8, 119) ;
+    transform: scale(1.05);
+}
+
+.icons{
+    display: none;
+    color: #fff;
+    align-items: center;
+    margin: 7px;
+}
+
+.navbar-logo{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+.searchterm{
+    margin-top: 7px;
+}
+.searchterm input{
+    padding: 5px;
+    border: transparent;
+    outline: none;
+    width: 80%;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    position:relative;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:20px;
+    
+
+}
+.account-icon{
+    height: 30px;
+    color: #fff;
+    margin-left: 20px;
+    right: 0;
+    margin-top: 7px;
+    float: right;
+}
+.account-icon:hover{
+    color: red;
+}
+.cart-icon{
+    height: 30px;
+    color: #fff;
+    margin-left: 20px;
+    right: 0;
+    margin-top: 7px;
+    float: right;
+    
+}
+.cart-icon:hover{
+    color: red;
+}
+@media screen and (max-width:740px) {
+    .icons{
+        display: block;
+        position: absolute;
+        
+    }
+   
+    .nav-menu {
+        position: fixed;
+        background: rgba(8, 8, 49, 0.884);
+        width: 50%;
+        right: 2%;
+        top: 5vh;
+        /* display: block; */
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        text-align: center;
+        margin-top: 5.3%;
+        transform: translateX(100%);
+        transition:0.5 all ease-in ;
+
+    }
+    .nav-menu.active{
+        transform: translateX(0);
+    }
+    .nav-links{
+        margin-top: 50px;
+    }
+    .nav-item{
+        margin-top: 40px;
+    }
+    .cart-icon{
+        top:0;
+        float:right;
+    }
+    
+}
+ 
